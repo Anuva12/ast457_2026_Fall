@@ -1,0 +1,13 @@
+# instructor-side material: roster (FERPA), seeds/truth, quiz masters, solutions
+instructor/
+
+# build artifacts
+syllabus/*.aux
+syllabus/*.log
+syllabus/*.out
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+# instructor-facing context, not for the public repo
+CLAUDE.md

@@ -1,0 +1,163 @@
+%----------------------------------------------------------------------%
+% CV 4 me
+% created January 19, 1995
+%
+% uses 'cv-cv.tex' and 'pubs.tex' as \input files
+%
+% 11/07/99: appened publications list
+% 11/23/99: put school in 1st field of Education, instead of degree
+%----------------------------------------------------------------------%
+\documentclass[11pt]{article}
+\usepackage{fancyhdr}
+\usepackage[square,numbers,sort]{natbib}
+\usepackage{fontspec}
+\usepackage[usenames, dvipsnames]{xcolor}
+\usepackage{xspace}
+\usepackage{marvosym}
+\newcommand\st{\textsuperscript{st}\xspace}
+\newcommand\nd{\textsuperscript{nd}\xspace}
+\newcommand\rd{\textsuperscript{rd}\xspace}
+\newcommand\nth{\textsuperscript{th}\xspace} %\th is taken already
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Avenir}[
+  UprightFont=* Book,             % or Light
+  ItalicFont=* Book Oblique,      % or Light Oblique
+  BoldFont=* Black,               % or Medium
+  BoldItalicFont=* Black Oblique, % or Medium Oblique
+]
+\setsansfont{Gill Sans} % Used in the from address line above the to address
+\newfontfamily{\headerfont}{Gill Sans}
+
+% This gives us fun enumeration environments. compactenum will be nice.
+\usepackage{paralist}
+\usepackage{url}
+\usepackage[document]{ragged2e}
+\usepackage{hyperref}
+\hypersetup{%
+  colorlinks=true,% hyperlinks will be coloured
+  urlcolor=RoyalBlue,% hyperlink text will be green
+  linkbordercolor=red 
+}
+
+% set some page margins to fill more than the default
+\setlength{\textwidth}{6.4in}
+\setlength{\textheight}{9.2in}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\topmargin}{-30pt}
+
+
+\newcommand{\mean}[1]{\left \langle #1 \right \rangle}
+\newcommand{\dof}{\rm dof}
+\newcommand{\chisq}{\ensuremath{\chi^2}}
+\newcommand{\chisqnu}{\ensuremath{\chi^2/{\rm DoF}}}
+\newcommand{\err}[2]{\ensuremath{^{+#1}_{-#2}}}
+\newcommand{\msun}{M$_{\sun}$}
+\def\lsim{\hbox{\rlap{\raise 0.425ex\hbox{$<$}}\lower 0.65ex\hbox{$\sim$}}}
+\def\gsim{\hbox{\rlap{\raise 0.425ex\hbox{$>$}}\lower 0.65ex\hbox{$\sim$}}}
+\newcommand{\about}{$\sim\!\!$~}
+
+\newcommand{\kms}     {{}km~s$^{-1}$}
+\def\arcmin{\hbox{$^\prime$}}
+\def\arcsec{\hbox{$^{\prime\prime}$}}
+\def\arcdeg{\mbox{$^\circ$}}
+
+\newcommand{\OM}      {${\Omega}_{\rm M}$}
+\newcommand{\OL}      {${\Omega}_{\Lambda}$}
+\newcommand{\OK}      {${\Omega}_{\rm K}$}
+\newcommand{\OT}      {${\Omega}_{\rm total}$}
+\newcommand{\OMpL}    {${\Omega}_{\rm M}+{\Omega}_{\Lambda}$}
+\newcommand{\OMLflat} {${\Omega}_{\rm M}+{\Omega}_{\Lambda}=1$}
+\newcommand{\OX}      {${\Omega}_{\rm X}$}
+\newcommand{\Dm}      {${\Delta{m_{15}}}$}
+\newcommand{\lcdm}    {$\Lambda{\rm CDM}$}
+\newcommand{\scriptM} {$\cal{M}$}
+
+\newcommand{\ugriz}{\protect\hbox{$ugriz$} }
+\newcommand{\ugrizyjh}{\protect\hbox{$ugrizY\!\!J\!H$} }
+\newcommand{\ugr}{\protect\hbox{$ugr$} }
+\newcommand{\gri}{\protect\hbox{$gri$} }
+\newcommand{\ri}{\protect\hbox{$RI$} }
+\newcommand{\griz}{\protect\hbox{$griz$} }
+\newcommand{\ubvri}{\protect\hbox{$U\!BV\!RI$} }
+\newcommand{\ubv}{\protect\hbox{$U\!BV$} }
+\newcommand{\bvri}{\protect\hbox{$BV\!RI$} }
+\newcommand{\bri}{\protect\hbox{$BRI$} }
+\newcommand{\bvrijh}{\protect\hbox{$BV\!RI\!J\!H$} }
+\newcommand{\ubvrijhk}{\protect\hbox{$U\!BV\!RI\!J\!H\!K$} }
+\newcommand{\bvrijhk}{\protect\hbox{$BV\!RI\!J\!H\!K$} }
+\newcommand{\vrijhk}{\protect\hbox{$V\!RI\!J\!H\!K$} }
+\newcommand{\vri}{\protect\hbox{$V\!RI$} }
+\newcommand{\vrizjhk}{\protect\hbox{$V\!RIzJ\!H\!K$} }
+\newcommand{\jh}{\protect\hbox{$J\!H$} }
+\newcommand{\jhk}{\protect\hbox{$J\!H\!K$} }
+\newcommand{\jhks}{\protect\hbox{$J\!H\!K_{s}$} }
+\newcommand{\bvz}{\protect\hbox{$BV\!z$} }
+
+\newcommand{\halpha}{H$\alpha$}
+\newcommand{\hbeta}{H$\beta$}
+\newcommand{\hgamma}{H$\gamma$}
+\newcommand{\hdelta}{H$\delta$}
+
+\newcommand{\iue}{\protect\hbox{$IU\!E$} }
+\newcommand{\hst}{\protect\hbox{$H\!ST$} }
+\newcommand{\stis}{\protect\hbox{$ST\!I\!S$} }
+\newcommand{\uvot}{\protect\hbox{$UV\!OT$\!\!.} }
+\newcommand{\jwst}{\protect\hbox{$JW\!ST$} }
+
+% makes a line of width \textwidth starting at -\hoffset
+\def\fullline{		% hrules only listen to \hoffset
+  \nointerlineskip      % so I have this code     
+  \moveleft\hoffset\vbox{\hrule width\textwidth} 
+  \nointerlineskip
+}
+
+\newenvironment{changemargin}[2]{%
+\list{}{\rightmargin#2\leftmargin#1
+\parsep=0pt\topsep=0pt\partopsep=0pt}
+\item[]}
+{\endlist}
+ 
+% A simple way to indent blocks of text
+\newenvironment{indentmore}{\begin{changemargin}{1cm}{0cm}}{\end{changemargin}}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{enumerate}[#1]}{\end{enumerate}%
+         \vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{compactenum}[#1]}{\end{compactenum}}
+
+% page headings
+\newcommand{\epoch}{Fall 2026}
+\pagestyle{fancy}
+\fancyhead[L]{\emph{\epoch}}
+\fancyhead[R]{\emph{Foundations of Data Science in Astronomy}}
+\fancyfoot[C]{\protect\arabic{page}}
+\renewcommand{\headrulewidth}{0pt}
+
+
+\renewcommand{\thepage}{}
+\fancypagestyle{firststyle}
+{
+   \fancyhf{}
+   \renewcommand{\headrulewidth}{0pt}
+}
+%------------------------------------------------------------
+\begin{document}
+\thispagestyle{firststyle}
+\parskip = 10pt plus 1pt
+\parindent = 0pt
+
+%body
+\input coursemat.tex
+
+\end{document}
+
+
+
+
+
+
+
