@@ -125,8 +125,9 @@ live and AI-free, and certifies the statistical reasoning you carry in your
 own head. **Track B** (labs, take-home exam components, the capstone) is
 open-book, open-AI, and documented, and certifies that you can do, and stand
 behind, a real analysis. You need both to do well; neither can be delegated to
-a machine. Attendance is at your own discretion, and there are no planned
-opportunities for extra credit. This course awards 3 credit hours; graduate students may register for either
+a machine. Attendance is at your own discretion. Extra credit is rare; the
+one planned opportunity is the Sep. 8 Astronomy Colloquium (see Important
+dates). This course awards 3 credit hours; graduate students may register for either
 3 or 4 credit hours. At 3 credit hours, graduate students complete exactly the
 same assessments as undergraduates; the 4 credit hour option adds an expanded
 capstone (see below). **All
@@ -296,6 +297,11 @@ that, tell me early.
 ## Important dates
 
 - Aug. 25, 2026: First day of class
+- Sep. 8, 2026: Astronomy Colloquium by Kareem El-Badry, who led the Gaia BH1
+  black-hole discovery you'll meet on day one. **Extra credit, +5 points on
+  Quiz 1:** attend (there will be a signup sheet) or watch the YouTube
+  recording afterward, and turn in at least a page of notes including two
+  questions you had, by Noon Tue Sep. 15
 - Oct. 8, 2026: Midterm take-home posted (due Oct. 14 by Noon; defenses
   Oct. 19–23)
 - Oct. 20, 2026: Capstone topics due (chosen with me)
