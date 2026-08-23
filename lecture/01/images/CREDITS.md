@@ -46,3 +46,7 @@ Downloaded 2026-08-23. All licenses permit redistribution with the credit line s
 
 ## uiuc_logo.png
 - **Source:** GN's logo library (~/Dropbox/work/Presentations/logos/exp-uiuc.png); UIUC wordmark, institutional use
+
+## xkcd_error_bars.png / xkcd_curve_fitting.png / xkcd_machine_learning.png / xkcd_git.png / xkcd_python.png
+- **Source:** xkcd.com by Randall Munroe — #2110 (Error Bars), #2048 (Curve Fitting), #1838 (Machine Learning), #1597 (Git), #353 (Python)
+- **License:** CC BY-NC 2.5 (https://xkcd.com/license.html) — attribution given on the slides; non-commercial educational use
