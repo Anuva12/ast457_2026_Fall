@@ -11,4 +11,12 @@ If you have an existing `conda` or `conda` installation, skip to Step 3.
 > conda activate astr457
 > conda install python=3 numpy scipy astropy jupyter matplotlib scikit-learn pandas emcee corner ipympl nb_conda_kernels
 
-This will prompt you to install several other packages. Hit yes. 
+This will prompt you to install several other packages. Hit yes.
+
+4. To work on the course notebooks, run:
+> jupyter lab
+
+and when you open a notebook, make sure the kernel (top right) says
+"Python [conda env:astr457]" -- if it doesn't, switch to it via
+Kernel > Change Kernel. If that kernel isn't offered, you skipped
+`nb_conda_kernels` in Step 3.
