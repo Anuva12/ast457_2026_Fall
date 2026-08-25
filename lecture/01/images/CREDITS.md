@@ -50,3 +50,6 @@ Downloaded 2026-08-23. All licenses permit redistribution with the credit line s
 ## xkcd_error_bars.png / xkcd_curve_fitting.png / xkcd_machine_learning.png / xkcd_git.png / xkcd_python.png
 - **Source:** xkcd.com by Randall Munroe — #2110 (Error Bars), #2048 (Curve Fitting), #1838 (Machine Learning), #1597 (Git), #353 (Python)
 - **License:** CC BY-NC 2.5 (https://xkcd.com/license.html) — attribution given on the slides; non-commercial educational use
+
+## repo_qr.png
+- **Source:** generated locally (Python `qrcode` package) 2026-08-25, encoding https://github.com/gnarayan/ast457_2026_Fall — not third-party content, no license needed.
