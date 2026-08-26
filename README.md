@@ -48,5 +48,6 @@ Pulling from <main, origin, upstream>
 
 Submitting your work
 
-    Fork this repo, create a folder with your name, commit your work there, and
+    Fork this repo, create a folder named for your NetID inside `submissions/`,
+    commit your work there, and
     open a pull request before Noon on the due date (Wednesdays for labs).

@@ -190,7 +190,8 @@ are unique to you, so your numbers and plots will not match anyone else's. If th
 
 Labs/exams will be posted to the course
 [GitHub repo](https://github.com/gnarayan/ast457_2026_Fall) on Thursdays. Make
-a fork of the repo, create a folder with your name for your work, write/code
+a fork of the repo, create a folder named for your NetID inside `submissions/`
+for your work, write/code
 up your solution as directed in the assignment, commit, and open a pull
 request when you are satisfied with your work before Noon the following
 Wednesday.
